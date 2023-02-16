@@ -19,7 +19,7 @@
     width: 20px;
     height: 100px;
     background-color: black;
-    margin-top: 20px;
+    margin: 0 auto;
   
     
 }
@@ -32,6 +32,8 @@
     border-radius: 15px;
     width: 150px;
     height: 340px;
+    margin-top: 20px;
+   
 }
 
 .light{
@@ -42,17 +44,17 @@
 
 .red{
     background-color: red;
-    border-color: red;
+    border-color: 1px solid red;
 }
 
 .yellow{
     background-color: yellow;
-    
+    border-color: 1px solid yellow;
 }
 
 .green{
     background-color: green;
-   
+    background-color: 1px solid green;
 }
 
 .glow{

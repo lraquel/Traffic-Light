@@ -8,26 +8,27 @@ const Home = () => {
 	const [color,setColor] = useState("");
 	return (
 	  <div className="contenedor">
-		<div className="poste"></div>
+		
 
 		 <div className="semaforo">
 			<button 
 			  onClick = {() => setColor("red")}
-			  className={"light red" + ((color === "red") ? "glow" : "")}>
+			  className={"light red" + ((color === "red") ? " glow" : "")}>
 
 			</button>
 			<button 
 			  onClick = {() => setColor("yellow")}
-			  className={"light yellow" + ((color === "yellow") ? "glow" : "")}>
+			  className={"light yellow" + ((color === "yellow") ? " glow" : "")}>
 
 			</button>
 			<button 
 			  onClick = {() => setColor("green")}
-			  className={"light green" + ((color === "green") ? "glow" : "")}>
+			  className={"light green" + ((color === "green") ? " glow" : "")}>
 
 			</button>
 			
 		</div>
+		<div className="poste"></div>
 	  </div>	
 	);
 };
